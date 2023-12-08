@@ -1,2 +1,0 @@
-# mall-app
-mall-app
