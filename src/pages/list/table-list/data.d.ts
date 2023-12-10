@@ -13,6 +13,19 @@ export type TableListItem = {
   progress: number;
 };
 
+export type TableListItem1 = {
+  id: number;
+  wine: string;
+  wineType: 'Fragrance' | 'strongAroma' | 'sauceAroma';
+  tier: 'all' | 'middle' | 'middleUp' | 'middleDown';
+  wineAge: number;
+  alcoholicStrength: number;
+  unit: 'jin' | 'kilogram' | 'piece' | 'pot';
+  costPrice: number;
+  salePrice: number;
+  showTime: Date;
+};
+
 export type TableListPagination = {
   total: number;
   pageSize: number;
