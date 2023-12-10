@@ -12,6 +12,8 @@ export default defineConfig({
   dva: {
     hmr: true,
   },
+  base: '/mall-app/',
+  publicPath: '/mall-app/',
   layout: {
     // https://umijs.org/zh-CN/plugins/plugin-layout
     locale: true,
